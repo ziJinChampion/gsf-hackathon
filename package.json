@@ -1,0 +1,22 @@
+{
+  "name": "gsf-hackthon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "green",
+    "software"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@grnsft/if-plugins": "^0.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}

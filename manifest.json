@@ -1,0 +1,17 @@
+{
+    "name": "My Extension",
+    "version": "1.0",
+    "description": "This is my first Chrome extension.",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://*/*", "http://*/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "permissions": ["tabs", "activeTab"]
+  }
+  
